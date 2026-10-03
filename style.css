@@ -83,7 +83,7 @@ td:nth-child(4){
 
 }
 
-li{
+li.sider{
     list-style-image: url(arrow.png);
     font-size: 20px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -109,6 +109,11 @@ li{
     text-align: right;
     color:#8192a7;
 }
+ol.centersize{
+    text-align: center;
+    color:#8192a7;
+    font-size: 25px;
+}
 
 a{
     text-decoration: none;
@@ -128,8 +133,12 @@ h{
 
 img{
     width: 80%;
-    height: auto;
+    height: 40%;
     margin: auto;
     display: block;
+}
+
+li{
+    list-style-type: none;
 }
 
