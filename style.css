@@ -71,17 +71,25 @@ td:nth-child(4){
     display: grid;
     gap: 40px;
     grid-template-columns:  3fr 3fr 3fr 2fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 3fr 1fr;
     grid-template-areas: 
     "head head head head"
     "main main2 main3 sidebar"
-    "main main2 main3 sidebar"
-    "main main2 main3 sidebar"
     "footer footer footer footer";
-
-
-
 }
+
+.container2{
+    height: 100%;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 9fr 9fr 4fr ;
+    grid-template-rows: 1fr 3fr 1fr;
+    grid-template-areas: 
+    "head head head"
+    "main main2 sidebar"
+    "footer footer footer";
+}
+
 
 li.sider{
     list-style-image: url(arrow.png);
@@ -132,13 +140,21 @@ h{
 }
 
 img{
+    width: 40%;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+img.image{
     width: 80%;
-    height: 40%;
+    height: auto;
     margin: auto;
     display: block;
 }
 
 li{
     list-style-type: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
